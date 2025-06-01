@@ -1,0 +1,60 @@
+---
+- hosts: localhost
+  tasks:
+    - name: "Install homebrew packages"
+      # become: true
+      # become_user: root
+      community.general.homebrew:
+        name: [
+          # macos specific
+          "zsh-autosuggestions",
+          "zsh-syntax-highlighting",
+
+          # editor
+          "neovim",
+
+          # utils
+          "git",
+          "lftp",
+          "netcat",
+          "zoxide",
+          "eza",
+          "yazi",
+          "tree",
+          "bat",
+          "fzf",
+          "fd",
+          "ripgrep",
+          "htop",
+          "delta",
+          "lazygit",
+          "lazydocker",
+          "luarocks",
+          "jq",
+          "yq",
+          "nb",
+          "make",
+          "just",
+          "tmux",
+          "tmuxinator",
+
+          # build systems
+          "maven",
+          "gradle",
+          "ant",
+
+          # languages
+          "python3",
+          "go",
+          "openjdk@17",
+          "zig",
+          "lua",
+
+          #database
+          "redis",
+
+          # dotfiles
+          "stow"
+        ]
+        state: present
+        update_homebrew: yes
