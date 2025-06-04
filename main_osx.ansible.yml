@@ -9,6 +9,7 @@
           # macos specific
           "zsh-autosuggestions",
           "zsh-syntax-highlighting",
+          "zsh-autocomplete",
 
           # editor
           "neovim",
