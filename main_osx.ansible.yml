@@ -37,6 +37,8 @@
           "just",
           "tmux",
           "tmuxinator",
+          "subversion",
+          "sshpass",
 
           # build systems
           "maven",
