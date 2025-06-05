@@ -57,7 +57,10 @@
           "redis",
 
           # dotfiles
-          "stow"
+          "stow",
+
+          # ai
+          "ollama"
         ]
         state: present
         update_homebrew: yes
