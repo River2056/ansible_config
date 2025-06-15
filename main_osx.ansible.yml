@@ -40,11 +40,13 @@
           "tmuxinator",
           "subversion",
           "sshpass",
+          "p7zip",
 
           # build systems
           "maven",
           "gradle",
           "ant",
+          "uv",
 
           # languages
           "python3",
