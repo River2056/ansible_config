@@ -6,63 +6,65 @@
       # become_user: root
       community.general.homebrew:
         name: [
-          # macos specific
-          "zsh-autosuggestions",
-          "zsh-syntax-highlighting",
-          "zsh-autocomplete",
+            # macos specific
+            "zsh-autosuggestions",
+            "zsh-syntax-highlighting",
+            "zsh-autocomplete",
 
-          # editor
-          "neovim",
+            # editor
+            "neovim",
 
-          # utils
-          "git",
-          "lftp",
-          "netcat",
-          "zoxide",
-          "eza",
-          "yazi",
-          "tree",
-          "bat",
-          "fzf",
-          "fd",
-          "ripgrep",
-          "htop",
-          "delta",
-          "lazygit",
-          "lazydocker",
-          "luarocks",
-          "jq",
-          "yq",
-          "nb",
-          "make",
-          "just",
-          "tmux",
-          "tmuxinator",
-          "subversion",
-          "sshpass",
-          "p7zip",
+            # utils
+            "git",
+            "lftp",
+            "netcat",
+            "zoxide",
+            "eza",
+            "yazi",
+            "tree",
+            "bat",
+            "fzf",
+            "fd",
+            "ripgrep",
+            "htop",
+            "delta",
+            "lazygit",
+            "lazydocker",
+            "luarocks",
+            "jq",
+            "yq",
+            "nb",
+            "make",
+            "just",
+            "tmux",
+            "tmuxinator",
+            "subversion",
+            "sshpass",
+            "p7zip",
+            "sesh",
+            "asdf",
 
-          # build systems
-          "maven",
-          "gradle",
-          "ant",
-          "uv",
+            # build systems
+            "maven",
+            "gradle",
+            "ant",
+            "uv",
 
-          # languages
-          "python3",
-          "go",
-          "openjdk@17",
-          "zig",
-          "lua",
+            # languages
+            "python3",
+            "go",
+            "openjdk@17",
+            "zig",
+            "lua",
 
-          #database
-          "redis",
+            #database
+            "redis",
 
-          # dotfiles
-          "stow",
+            # dotfiles
+            "stow",
 
-          # ai
-          "ollama"
-        ]
+            # ai
+            "ollama",
+          ]
         state: present
         update_homebrew: yes
